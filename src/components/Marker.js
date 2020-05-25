@@ -9,7 +9,7 @@ const Marker = (props) => {
         style={{ backgroundColor: color, cursor: 'pointer'}}
         title={name}
         >
-          <img src="labrador.png" alt="labrador cursor"></img>
+          {/* <img src="puppy.png" alt="labrador cursor"></img> */}
         </div>
     );
   };
