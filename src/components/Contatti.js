@@ -12,6 +12,9 @@ class Contatti extends React.Component {
                         320 722 3883
                         <br />
                         <br />
+                        <a href = "mailto: federigotoelettatura@gmail.com">federigotoelettatura@gmail.com</a>
+                        <br />
+                        <br />
                         Orari di apertura:
                         <br />
                         10:00 - 18:00 Lunedi - Venerdi
