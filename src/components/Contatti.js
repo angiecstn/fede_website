@@ -11,7 +11,12 @@ class Contatti extends React.Component {
                         <br />
                         320 722 3883
                         <br />
-                        Orari: 10.00 - 18.00 da Lunedi a Venerdi
+                        <br />
+                        Orari di apertura:
+                        <br />
+                        10:00 - 18:00 Lunedi - Venerdi
+                        <br />
+                        09:00 - 14:00 Sabato
                     </div>
                 </element>
             </div>

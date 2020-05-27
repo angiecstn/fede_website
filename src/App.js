@@ -6,7 +6,7 @@ import About from './components/About'
 import Servizi from './components/Servizi'
 import MyMapComponent from './components/MyMapComponent'
 import ContactLinks from './components/ContactLinks'
-
+import PartitaIva from './components/PartitaIva';
 
 
 function App() {
@@ -20,13 +20,14 @@ function App() {
       <br />
       <MyMapComponent
         isMarkerShown
-        googleMapURL="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=geometry,drawing,places"
+        googleMapURL="https://maps.googleapis.com/maps/api/js?key=AIzaSyDyPVcpTJOVIuVbFe0W_B4ihYIp1Fk7oUY&callback=initMap"
         loadingElement={<div style={{ height: `100%` }} />}
         containerElement={<div style={{ height: `400px` }} />}
         mapElement={<div style={{ height: `100%` }} />}
       />
       <Contatti></Contatti>
       <ContactLinks></ContactLinks>
+      <PartitaIva></PartitaIva>
     </div>
   );
 }

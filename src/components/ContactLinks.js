@@ -5,6 +5,8 @@ class ContactLinks extends React.Component {
     render() {
         return (
             <div className="ui center aligned segment">
+                <div>Seguici su:</div>
+                <br />
                 <div className="ui bottom aligned medium image">
                     <a href="https://www.facebook.com/federigotoelettatura/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/facebook.png" alt="facebook icon" height="32" width="32"/>

@@ -34,15 +34,14 @@ export class Navbar extends Component {
 
     render() {
         return (
-                <div className="ui yellow four item inverted  massive menu navbar">
-                    {/* <div className="active item" href="home">Home</div> */}
-                    <a className="active item" href="home"onClick={this.scrollToTop}>Home</a>
+                <div className="ui yellow inverted menu navbar">
+                    <img src="/images/default.png" onClick={this.scrollToTop} alt="Federigo logo" height="100" width="100" />
+                    {/* <a className="active item" href="home"onClick={this.scrollToTop}>Home</a> */}
+                    <div className="right small yellow menu">
                     <div className="item"><Link activeClass="active" className="about" to="about1" spy={true} smooth={true} duration={500} >About</Link></div>
                     <div className="item"><Link activeClass="active" className="servizi" to="servizi1" spy={true} smooth={true} duration={500} >Servizi</Link></div>
-                    <div className="right menu">
                         <div className="item"><Link activeClass="active" className="contatti" to="contatti1" spy={true} smooth={true} duration={500} >Contatti</Link></div>
                     </div>
-                    <img src="/images/logo.png" alt="Federigo logo" height="51" width="51" />
                 </div>
         )
     }

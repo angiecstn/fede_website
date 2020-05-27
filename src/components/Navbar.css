@@ -1,15 +1,17 @@
 .navbar {
-    background-color: yellow;
     position: fixed;
     display: flex;
+    background-color: yellow;
+    cursor: pointer;
     justify-content: space-between;
     align-items: center;
     padding: 0.7rem 2rem;
     overflow: hidden;
     z-index: 1;
-    width: 88.15%;
+    width: 100%;
     margin: auto;
     top: 0;
+    padding: 0px;
     border-bottom: solid 1px var(--primary-color);
     /* opacity: 0.9; */
     top: 0;

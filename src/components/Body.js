@@ -5,7 +5,7 @@ class Body extends React.Component {
     render() {
         return (
             <div>
-                <img className="ui fluid centered image" alt="labrador" href="Labrador bath" src="images/brando.jpg"/>
+                <img className="ui fluid centered image" alt="labrador" href="Labrador bath" src="images/brando1.jpg"/>
             </div>
         )
     }

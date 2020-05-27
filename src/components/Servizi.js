@@ -1,36 +1,43 @@
 import React from 'react'
+import './Servizi.css';
 
 
 class Servizi extends React.Component {
     render() {
         return (
-            <div className="ui segment">
+            <div className="ui relaxed horizontal big segment servizi">
                 <element name="servizi1" className="element">
-                    <div className="ui middle aligned divided list">
-                    <h3>Servizi Offerti:</h3>
+                    <div className="ui big relaxed horizontal list servizi">
+                    <h2 className="title">Servizi Offerti:</h2>
                     <div className="item">
-                    <img className="ui avatar image" alt="dog icon" src="images/dog.png" />
-                    <div className="content">
-                        <a className="header" href="toelettatura cani">Toalettatura Cani</a>
-                    </div>
-                    </div>
-                    <div className="item">
-                    <img className="ui avatar image" alt="cat icon" src="images/cat.png" />
-                    <div className="content">
-                        <a className="header" href="toelettatura gatti">Toalettatura Gatti</a>
-                    </div>
+                        <img className="ui avatar image" alt="dog icon" src="images/dog.png" />
+                        <div className="content">
+                            Toalettatura Cani
+                        </div>
                     </div>
                     <div className="item">
-                    <img className="ui avatar image" alt="shampoo bottle icon" src="images/shampoo.png" />
-                    <div className="content">
-                        <a className="header" href="toelettatura prodotti">Prodotti per Toalettatura</a>
-                    </div>
+                        <img className="ui avatar image" alt="cat icon" src="images/cat.png" />
+                        <div className="content">
+                            Toalettatura Gatti
+                        </div>
                     </div>
                     <div className="item">
-                    <img className="ui avatar image" alt="scissor icon" src="images/scissors.png" />
-                    <div className="content">
-                        <a className="header" href="clipping">Clipping</a>
+                        <img className="ui avatar image" alt="shampoo bottle icon" src="images/shampoo.png" />
+                        <div className="content">
+                            Prodotti per Toalettatura
+                        </div>
                     </div>
+                    <div className="item">
+                        <img className="ui avatar image" alt="scissor icon" src="images/scissors.png" />
+                        <div className="content">
+                            Stripping
+                        </div>
+                    </div>
+                    <div className="item">
+                        <img className="ui avatar image" alt="treatment icon" src="images/treatment.png" />
+                        <div className="content">
+                            Ozonoterapia
+                        </div>
                     </div>
                 </div>
             </element>
